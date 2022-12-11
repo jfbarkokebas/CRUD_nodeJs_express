@@ -1,0 +1,1 @@
+A partir da extenção REST CLIENT do vscode , usamos um <arquivo.http> para guardar todas as nossas requisições

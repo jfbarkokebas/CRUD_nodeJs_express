@@ -1,0 +1,27 @@
+POST http://localhost:3000/products
+content-type: application/json
+
+{
+    "name": "caneta azul",
+    "price": 3.00
+}
+
+###
+
+GET http://localhost:3000/products
+
+###
+GET http://localhost:3000/products/8bf0baa6-968e-4978-be92-769985a0f970
+
+###
+PUT  http://localhost:3000/products/8bf0baa6-968e-4978-be92-769985a0f970
+content-type: application/json
+
+{
+    "name": "caderno 96 folhas preto",
+    "price": 15.30
+}
+
+
+###
+DELETE http://localhost:3000/products/76606503-bff2-4ab6-b457-1c4c7476e03a
